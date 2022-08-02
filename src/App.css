@@ -1,0 +1,37 @@
+.nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+.char-container {
+  display: flex;
+  justify-content: left;
+  gap: 1%;
+}
+
+.accordion-title {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid orange;
+  cursor: pointer;
+  background-color: #21aeca;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+}
+
+img {
+  max-width: 75%;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-title:hover {
+  background-color: #3ab4cc;
+}
